@@ -3,6 +3,19 @@
   border: 1px solid red;
 }
 
+#logo {
+  float: left;
+  margin: 20px 30px;
+}
+
+#links {
+  float: left;
+  margin: 20px 30px;
+}
+
+#log_in {
+  float: right;
+}
 /*Nav above*/
 
 
