@@ -9,14 +9,16 @@
 <body>
 
 <nav>
-  <div id="logo"></div>
+  <div id="logo">
+    <img src="assets/toggl_logo.jpeg">
+  </div>
 
   <div id="links">
-    <div class="link">TOUR</div>
-    <div class="link">SIGNUP & PRICING</div>
-    <div class="link">ABOUT</div>
-    <div class="link">SUPPORT</div>
-    <div class="link">BLOG</div>
+    <div class="link"><a href="#">TOUR</a></div>
+    <div class="link"><a href="#">SIGNUP & PRICING</a></div>
+    <div class="link"><a href="#">ABOUT</a></div>
+    <div class="link"><a href="#">SUPPORT</a></div>
+    <div class="link"><a href="#">BLOG</a></div>
   </div>
 
   <button class="log_in">LOG IN</button>
@@ -27,12 +29,12 @@
   <div class="box_wrappers">
 
     <div class="hero_box" id="left_hero_box">
-      <div class="top_box">
+      <div class="top_box" id="left_top_box">
         <span class="top_box_txt" id="time">0:00:37</span>
         <span class="top_box_txt" id="toggl">Reading Toggl.com</span>
       </div>
-      <div class="top_box">
-        <button class="stop_btn">Stop</button>
+      <div class="top_box" id="right_top_box">
+        <button class="stop_btn">STOP</button>
       </div>
       <div class="small_box">
         <span class="small_box_txt_left">Going over Excel spreadsheets</span>

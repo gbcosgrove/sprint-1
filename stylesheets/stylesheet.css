@@ -12,42 +12,71 @@ button {
   border: none;
 }
 
+button:focus {
+  outline: none;
+}
+
 nav {
   width: 100%;
-  min-width: 800px;
+  min-width: 1000px;
   height: 110px;
+  max-height: 110px;
   padding-top: 18px;
   padding-left: 100px;
   padding-right: 100px;
+  position: relative;
 }
 
 #logo {
-  float: left;
   height: 70px;
+  width: 120px;
+  /*background-image: url("../)*/
+  position: absolute;
+  left: 60px;
+  margin-top: 10px;
+}
+
+#logo img {
+  height: 50px;
   width: 120px;
 }
 
 #links {
   float: left;
   height: 70px;
-  margin-left: 20px;
+  margin-left: 80px;
+  font: .6em;
+  position: absolute;
 }
 
 .link {
   height: 70px;
   text-align: center;
-  padding: 22px 5px 0px 5px;
+  padding: 28px 5px 0px 5px;
   float: left;
+  margin-left: 15px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #000;
+}
+
+.link a:hover {
+  color: #e20000;
 }
 
 .log_in {
-  height: 32px;
-  width: 70px;
+  height: 33px;
+  width: 75px;
   margin-top: 20px;
+  margin-left: 30px;
   border-radius: 5px;
-  float: right;
   background-color: #fff;
   border: 1px solid #e0e0e0;
+  position: absolute;
+  right: 90px;
+  font-size: .9em
 
 }
 /*Nav above*/
@@ -58,7 +87,7 @@ nav {
 .wrapper {
   height: 660px;
   width: 100%;
-  min-width: 800px;
+  min-width: 1500px;
   position: relative;
   background-image: url("../assets/blur.jpg");
   background-size: cover;
@@ -93,8 +122,21 @@ nav {
   padding-top: 58px;
 }
 
+#left_top_box {
+  width: 65%;
+}
+
+#right_top_box {
+  width: 35%;
+}
+
 .top_box_txt {
   display: block;
+  font-size: 2.8em;
+}
+
+#toggl {
+  font-size: 1.5em;
 }
 
 .small_box {
@@ -113,6 +155,10 @@ nav {
   float: right;
 }
 
+.small_box a:hover {
+  text-decoration: none;
+}
+
 #right_hero_box {
   float: right;
 }
@@ -120,6 +166,7 @@ nav {
 #right_hero_box .top_box {
   padding-left: 0;
   color: #fff;
+  width: 525px;
 }
 
 .stop_btn {
@@ -128,13 +175,12 @@ nav {
   border-radius: 3px;
   float: right;
   background-color: #f2f2f2;
+  font-size: 1.3em;
 }
 
 #box_right {
   width: 100%;
 }
-
-
 
 .right_box_btn {
   height: 62px;
@@ -152,6 +198,15 @@ nav {
   background-color: #36302b
 }
 
+#insane {
+  font-size: 2em;
+}
+
+#kill {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
 #sign_up {
   background: #82d800; /* Old browsers */
 background: -moz-linear-gradient(-45deg, #82d800 0%, #55aa1d 100%); /* FF3.6+ */
@@ -162,6 +217,12 @@ background: -ms-linear-gradient(-45deg, #82d800 0%,#55aa1d 100%); /* IE10+ */
 background: linear-gradient(135deg, #82d800 0%,#55aa1d 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82d800', endColorstr='#55aa1d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   box-shadow: 0 1px 1px rgba(0,0,0,.5);
+  font-weight: bold;
+  color: #fff;
+}
+
+.right_box_btn {
+  font-size: 1.2em;
 }
 
 
